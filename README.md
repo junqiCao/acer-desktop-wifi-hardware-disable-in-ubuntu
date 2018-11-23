@@ -1,8 +1,9 @@
-# with-ubuntu-acer-desktop-wifi-hardware-disable
-wifi hardware disable
-asus acer 貌似都有这个毛病，还有ubuntu等也有，既然都能显示，hardware disable即硬件显示关闭，硬件强制关闭，就是说，无线网卡没有坏，虽然曾经一度怀疑无线网卡坏了，折腾了好久，又是百度，google bing等搜索无果，重装系统等等，强迫症患者  突然今天，偶然发现  https://blog.csdn.net/ls12165/article/details/68189943 和我的电脑型号一样，遇到的问题也一样，
+# acer-desktop-wifi-hardware-disable-on-ubuntu-system
+wifi hardware disable asus acer 貌似都有这个毛病，还有ubuntu等也有，既然都能显示，hardware disable即硬件显示关闭，硬件强制关闭，就是说，无线网卡没有坏，虽然曾经一度怀疑无线网卡坏了，折腾了好久，又是百度，google bing等搜索无果，重装系统等等，强迫症患者  突然今天，偶然发现  https://blog.csdn.net/ls12165/article/details/68189943 和我的电脑型号一样，遇到的问题也一样，下面说一下解决办法。
 
-so 解决办法就是 1首先打开硬件开关  2 冲突模块加入blacklist
+解决办法：
+**1、首先打开硬件开关  **
+**2、冲突模块加入blacklist **
 
 硬件开关是否开启，acer4750G是fn+f3 打开后但还是显示无法打开等
 
